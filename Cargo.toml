@@ -2,5 +2,8 @@
 name = "Crab-Burrows"
 version = "0.1.0"
 edition = "2024"
+author = "MasterHesse"
 
 [dependencies]
+bincode = "2.0.1"
+lru = "0.15.0"

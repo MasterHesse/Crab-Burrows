@@ -35,7 +35,7 @@ impl Serializable for DataType {
             DataType::Float(f) => bincode::encode_to_vec(f, config),
             DataType::Text(s) => bincode::encode_to_vec(s, config),
             DataType::Blob(b) => bincode::encode_to_vec(b, config),
-            DataType::Null => bincode::encode_to_vec(&0u8, config),
+            DataType::Null => bincode::encode_to_vec(0u8, config),
         }
     }
 

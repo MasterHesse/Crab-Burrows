@@ -7,3 +7,4 @@ author = "MasterHesse"
 [dependencies]
 bincode = "2.0.1"
 lru = "0.15.0"
+crc32fast = "1.4.2" 
